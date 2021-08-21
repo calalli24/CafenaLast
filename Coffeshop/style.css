@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#Header {
+  margin-top: 2rem;
+}
+
+#Header ul li {
+  margin-right: 35px;
+}
+
+#Header ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #010103;
+  font-weight: bold;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#Header ul li a:hover {
+  color: #c7a17a;
+}
+
+#Header .button a {
+  padding: 15px 40px;
+  background-color: #c7a17a;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  text-decoration: none;
+}
+
+#Header .button a:hover {
+  background-color: #000;
+}
+
+body {
+  position: relative;
+  background-image: url(https://xpressrow.com/html/cafena/demo_assets/images/bg_01.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #eceae3;
+}
+
+#Header2 {
+  margin-top: 7rem;
+}
+
+#Header2 .all .text h1 {
+  font-size: 110px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#Header2 .all .text h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 50px;
+}
+
+#Header2 .all .buttons {
+  margin-top: 8rem;
+}
+
+#Header2 .all .buttons .a1 {
+  border: 1px solid #262626;
+  color: #262626;
+}
+
+#Header2 .all .buttons .a1:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+#Header2 .all .buttons .a2 {
+  background-color: #c7a17a;
+  color: #fff;
+}
+
+#Header2 .all .buttons .a2:hover {
+  background-color: #000;
+}
+
+#Header2 .all .buttons a {
+  padding: 15px 35px;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  text-decoration: none;
+}
+
+#Demos1 {
+  margin-top: 30rem;
+}
+
+#Demos1 .head-text h2 {
+  background-color: #c7a17a;
+  font-family: 'Jost', sans-serif;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+}
+
+#Demos1 .head-text h3 {
+  font-family: 'Bebas Neue', cursive;
+  color: #1B1B1B;
+  font-size: 42px;
+}
+
+#Demos1 .sites {
+  margin-top: 5rem;
+}
+
+#Demos1 .sites .box {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  overflow: hidden;
+}
+
+#Demos1 .sites .box:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+/*# sourceMappingURL=style.css.map */
